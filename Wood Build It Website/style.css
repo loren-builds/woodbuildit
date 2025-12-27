@@ -1,0 +1,52 @@
+h1 {
+    text-align: center;
+    margin-bottom: 3px;
+    font-family: sans-serif;
+    color: rgb(175, 175, 175);
+}
+
+.info {
+    text-align: center;
+    margin: -2px;
+    font-family: sans-serif;
+    color: rgb(175, 175, 175);
+}
+
+.images {
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    width: 45%;
+    margin: 1%;
+    border-radius: 10px;
+}
+
+.description {
+    text-align: center;
+    font-family: sans-serif;
+    color: rgb(175, 175, 175);
+}
+
+.descriptionDiv {
+    width: 45%;
+    margin-top: -2%;
+}
+
+.header {
+    margin-bottom: 1%;
+    background-color: rgb(53, 50, 50);
+    overflow: hidden;
+    padding-bottom: 3vh;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(77, 69, 69);
+}
+
+img:hover {
+  transform: scale(1.005);
+}
